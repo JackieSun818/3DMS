@@ -44,13 +44,11 @@ Due to storage space restrictions on github, you can download our dataset by vis
 Unzip the dataset folder and place it in the root directory of the project to achieve: ./dataset/
 
 # Training and testing
-You can use **PointDPI_train.py** to train the model with **DrugBank and Luo's dataset**, and use **PointDPI_train_bindingdb.py** to train with **BindingDB dataset**. 
+You can use **main.py** to train the model with **DrugBank and Luo's dataset**. 
 
 Line 4 can assign the GPU devices. 
 
-Line 227, 228, 286, 333 can assign the dataset and the train file / test file manually.
-
-You can also used command:  **python PointDPI_train.py --task drugbank --path _confi_greater_than_50** for a quickly train.
+Line 294 can assign the dataset and the train file manually.
 
 The program can automatically save the best-performing model to the path **./models/**.
 
