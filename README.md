@@ -15,9 +15,9 @@ tqdm==4.66.1
 # Installation Guide
 It normally takes about 10 minutes to install a new conda environment on a normal desktop computer. Run the following code under the conda environment to create the new virtual environment and install the required packages.
     
-    $ conda create --name PointDPI python=3.8
+    $ conda create --name 3DMS python=3.8
     
-    $ conda activate PointDPI
+    $ conda activate 3DMS
 
     $ pip install numpy==1.24.4
     
