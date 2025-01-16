@@ -291,9 +291,9 @@ def seed_torch(seed):
 
 if __name__ == '__main__':
     seed_torch(SEED)
-    # task = 'drugbank'   # select from 'drugbank', 'bindingdb' and 'dtinet'
+    task = 'drugbank'   # select from 'drugbank', 'bindingdb' and 'dtinet'
     # task = 'dtinet'  # select from 'drugbank', 'bindingdb' and 'dtinet'
-    task = 'bindingdb'  # select from 'drugbank', 'bindingdb' and 'dtinet'
+    # task = 'bindingdb'  # select from 'drugbank', 'bindingdb' and 'dtinet'
     # confi = 'confi60'
     # parser = argparse.ArgumentParser(description='train and test set')
     # parser.add_argument('--task', type=str, default='drugbank', help='task name')
