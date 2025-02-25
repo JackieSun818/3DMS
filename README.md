@@ -2,7 +2,7 @@
 Here is the code for paper **DCGCN: Dual-channel Graph Convolutional Network-based Drug-target Interactions Prediction Method with 3D Molecular Structure**.
 
 # System Requirements
-The source code developed in Python 3.8 using PyTorch 2.1.1 The required python dependencies are given below. 3DMS is supported for any standard computer and operating system (Windows/macOS/Linux) with enough RAM to run. There is no additional non-standard hardware requirements.
+The source code developed in Python 3.8 using PyTorch 2.1.1 The required python dependencies are given below. DCGCN is supported for any standard computer and operating system (Windows/macOS/Linux) with enough RAM to run. There is no additional non-standard hardware requirements.
 
 numpy==1.24.4
 
