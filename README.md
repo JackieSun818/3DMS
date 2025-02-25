@@ -1,5 +1,5 @@
-# 3DMS
-Here is the code for paper **3DMS: Predicting drug-target interactions based on 3D molecular structure**.
+# DCGCN
+Here is the code for paper **DCGCN: Dual-channel Graph Convolutional Network-based Drug-target Interactions Prediction Method with 3D Molecular Structure**.
 
 # System Requirements
 The source code developed in Python 3.8 using PyTorch 2.1.1 The required python dependencies are given below. 3DMS is supported for any standard computer and operating system (Windows/macOS/Linux) with enough RAM to run. There is no additional non-standard hardware requirements.
@@ -15,9 +15,9 @@ tqdm==4.66.1
 # Installation Guide
 It normally takes about 10 minutes to install a new conda environment on a normal desktop computer. Run the following code under the conda environment to create the new virtual environment and install the required packages.
     
-    $ conda create --name 3DMS python=3.8
+    $ conda create --name DCGCN python=3.8
     
-    $ conda activate 3DMS
+    $ conda activate DCGCN
 
     $ pip install numpy==1.24.4
     
